@@ -1,25 +1,30 @@
 * {
-  background-image: url("../img/background.jpeg");
+  background-image: url("../img/picnic.jpeg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   text-align: center;
-  font-family: monospace;
+  font-family: fantasy;
 }
 
 iframe {
-  padding: 50px;
+  border-radius: 15%;
+  border-width: 25px;
+  width: 50%;
+  padding: 30px;
 }
 
 img {
-  border-radius: 30%;
+  border-radius: 50%;
+  border-style: inset;
+  border-width: 25px;
   width: 50%;
-  padding: 80px;
+  padding: 10px;
 }
 
 h1 {
   font-size: 60px;
-  color: darkblue;
+  color: rgb(199, 31, 39);
 }
 
 .light {
@@ -28,7 +33,7 @@ h1 {
 
 a {
   font-size: 20px;
-  color: magenta;
+  color: rgb(255, 203, 31);
   line-height: 50px;
   
 }
